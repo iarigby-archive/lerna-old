@@ -22,7 +22,7 @@ class LernaApiSpec extends WordSpecLike with Matchers with BeforeAndAfterAll wit
   val mockHttp: HttpExt = mock[HttpExt]
 
   val lernaApi: LernaApi = new LernaApi {
-    override val http: HttpExt = mockHttp
+//    override val http: HttpExt = mockHttp
   }
 
   val routes = lernaApi.routes

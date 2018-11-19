@@ -12,6 +12,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     "com.typesafe.slick" %% "slick" % "3.2.3",
     "com.typesafe.slick" %% "slick-hikaricp" % "3.2.3",
+    "com.typesafe.slick" %% "slick-codegen" % "3.2.3",
     "mysql"               %  "mysql-connector-java"  % "5.1.38",
 
 
